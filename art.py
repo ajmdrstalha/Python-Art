@@ -12,7 +12,7 @@ t.hideturtle()
 hue = 0
 n = 36  # Number of shapes
 
-for i in range(360):
+for i in range(300):
     color = colorsys.hsv_to_rgb(hue, 1, 1)
     t.color(color)
     t.forward(i * 3 / n + i)
